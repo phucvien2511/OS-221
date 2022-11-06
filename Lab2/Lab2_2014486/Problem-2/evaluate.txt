@@ -1,0 +1,2 @@
+3 000 000: serial: 3.141509 - 0.145398s      multi thread (5 threads): 3.142584 - 0.052953s
+300 000 000: serial: 3.141619 - 11.116374s     multi thread (5 threads): 3.141717 - 2.550838s 

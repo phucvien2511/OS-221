@@ -1,0 +1,35 @@
+1. What are the advantages of Makefile? Give examples?
+ANSWER: 
+- Mỗi khi có sự thay đổi ở các hàm hay class thì Makefile sẽ giúp tự động biên dịch chỉ ở những nơi có sự thay đổi
+- Giúp người lập trình tiết kiệm thời gian viết lệnh biên dịch (Makefile chỉ cần được viết một lần, và sẽ tự động gọi một loạt dòng lệnh biên dịch với chỉ một lệnh make)
+- Giúp người lập trình tổ chức code một cách chuyên nghiệp và hiệu quả
+- Giúp người lập trình xác định dễ hơn các lỗi xảy ra trong quá trình biên dịch
+
+2. In case of source code files located in different places, how can we write a Makefile?
+ANSWER:
+- Giả sử chúng ta đang ở dir: /home/
+- Và giả sử chúng ta có 3 source code ở 3 vị trí khác nhau và có dir là SOURCE1, SOURCE2, SOURCE3
+- Để viết biên dịch chương trình ở 3 vị trí này:
+ + Đầu tiên chúng ta sẽ viết Makefile ở $SOURCE1, $SOURCE2, $SOURCE3, tương ứng với 3 source code ở trên
+ + Sau đó chúng ta trở về $HOME và viết một Makefile khác, có nội dung như sau: 
+1	SOURCE1 = ...
+2	SOURCE2 = ...
+3	SOURCE3 = ...
+4	all: 
+5 	   +$(MAKE) all -C $(SOURCE1)
+6	   +$(MAKE) all -C $(SOURCE2)
+7	   +$(MAKE) all -C $(SOURCE3)	
+
+Sau khi chạy Makefile trên, chương trình sẽ lần lượt biên dịch các source code ở $SOURCE1, $SOURCE2, $SOURCE3, trong file trên, "..." tương ứng là đường dẫn đến 3 source code.  
+3. What the output will be at LINE A? Explain your answer.
+ANSWER:
+- Output: "PARENT: value = 5"
+- Giải thích:
+  + Tổng quan chương trình: 
+     Chương trình có một biết toàn cục "value = 5", chương trình tạo ra một process con với lệnh fork() và trả về giá trị vào biến pid,
+     ở dòng lệnh thứ .. pid == 0 -> fork() thành công và chúng ta đang ở trong process con, và nếu pid > 0 -> chúng ta đang ở trong process cha.
+  + Chương trình tạo ra 1 child process, và child process này sử dụng chung code với parent process, nhưng phần data segment thì child process copy từ parent process.
+  + Vì vậy, khi child process tăng biến value += 15 thì đây chỉ là một biến được copy từ parent process.
+  + Khi child process hoàn thành, data segment của nó cũng bị xóa theo.
+  + Ở dòng lệnh .. , parent process đợi child process hoàn thành rồi nó mới thực thi câu lệnh ở "LINE A", lúc đó biến value ban đầu (của parent process) vẫn chưa bị thay đổi, vì vậy value = 5,
+Nên Output của "LINE A" là "PARENT: value = 5".

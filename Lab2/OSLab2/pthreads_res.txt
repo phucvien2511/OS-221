@@ -1,0 +1,11 @@
+inCircle_Local: 261808805, nPoints: 333333333
+inCircle_Local: 261791718, nPoints: 333333333
+inCircle_Local: 261800736, nPoints: 333333333
+nPoints = 1000000000
+PI = 3.141605
+Runtime of multithreads: 423.104279s%
+
+➜ OSLab2 ./pi_serial 1000000000
+nPoints = 1000000000
+PI = 3.141602
+Runtime of serial: 49.551861s%  

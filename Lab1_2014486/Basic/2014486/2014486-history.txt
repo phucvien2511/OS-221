@@ -1,0 +1,1358 @@
+    1  .zshrc
+    2  zsh -help
+    3  oh-my-zsh
+    4  ls
+    5  cd .oh-my-zsh
+    6  ls
+    7  cd ..
+    8  cat .zshrc
+    9  vim .zshrc
+   10  cd Downloads
+   11  ls
+   12  git clone https://github.com/powerline/fonts.git --depth=1
+   13  ls
+   14  cd fonts
+   15  ls
+   16  ./install.sh
+   17  clean-up a bit
+   18  cd ..
+   19  rm -rf fonts
+   20  ls
+   21  nmcli device wifi connect iPhone password thanh678
+   22  nmcli device wifi connect Nevermind password 28071997
+   23  ibus start
+   24  ibus-bamboo stary
+   25  ibus-bamboo start
+   26  ibus-bamboo
+   27  ibus
+   28  ibus restart
+   29  ibus list-engine
+   30  ibus help
+   31  ibus restart
+   32  nmcli device list
+   33  nmcli device wifi list
+   34  nmcli device wifi connect Nevermind password 28071997
+   35  zsh
+   36  zsh --version
+   37  sudo pacman -S nvim
+   38  sudo pacman -S neovim
+   39  sudo pacman -Syu neovim
+   40  sudo pacman -Su neovim
+   41  sudo pacman -Sy neovim
+   42  nvim --version
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  ls
+   48  ll
+   49  nvim .vimrc
+   50  nmcli device wifi connect iPhone password thanh678
+   51  nmcli device wifi list
+   52  nmcli device wifi connect iPhone password thanh678
+   53  nmcli device wifi
+   54  nmcli device wifi connect iPhone password thanh678
+   55  sudo pacman -S texlive-most texlive-lang
+   56  shutdown
+   57  shutdown --help
+   58  poweroff
+   59  nmcli device wifi connect iPhone password thanh678
+   60  nmcli device wifi list
+   61  nmcli device wifi connect iPhone password thanh678
+   62  neofetch
+   63  nmcli device wifi connect iPhone password thanh678
+   64  nmcli device wifi list
+   65  nmcli device wifi connect iPhone password thanh678
+   66  nmcli device wifi list
+   67  nmcli device wifi connect iPhone password thanh678
+   68  vim
+   69  /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-pkpri3fk.3mg 
+   70  /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-nj4qklim.esq 
+   71  ls
+   72  cls
+   73  clear
+   74  nmcli device wifi connect iPhone password thanh678
+   75  nmcli device wifi list
+   76  nmcli device wifi connect iPhone password thanh678
+   77  sudo pacman -S zalo
+   78  sudo pacman -S zalo-nativefier
+   79  ls
+   80  cd Downloads
+   81  git clone https://aur.archlinux.org/zalo-nativefier.git
+   82  la
+   83  ls
+   84  cd zalo-nativefier
+   85  ls
+   86  less PKGBUILD
+   87  makepkg -s -i -r -c
+   88  sudo pacman -S nodejs
+   89  sudo pacman -S nodejs-nativefier
+   90  sudo pacman -S npm
+   91  node -v
+   92  node
+   93  sudo pacman -Sy npm
+   94  makepkg -s -i -r -c
+   95  npm install -g nativefier
+   96  npm
+   97  npm install nativefier
+   98  cd ..
+   99  git clone https://aur.archlinux.org/nodejs-nativefier.git
+  100  ls
+  101  cd nodejs-nativefier
+  102  ls
+  103  makepkg -i -c -s -r
+  104  cd ..
+  105  cd zalo-nativefier
+  106  makepkg -i -c -s -r
+  107  cd ..
+  108  la
+  109  rm zalo-nativefier
+  110  del zalo-nativefier
+  111  delete zalo-nativefier
+  112  delete zalo-nativefier/
+  113  rmdir zalo-nativefier
+  114  rm -r zalo-nativefier
+  115  rm -r nodejs-nativefier
+  116  la
+  117  zalo
+  118  sudo pacman -Rs zalo-nativefier
+  119  sudo pacman -Rs node-nativefier
+  120  node
+  121  sudo pacman -Syu
+  122  sudo pacman -Su gcc
+  123  sudo pacman -Sy gcc
+  124  ls
+  125  mkinitcpio -P
+  126  loading linux-lts
+  127  systemctl get-default
+  128  cat /var/log/pacman.log
+  129  cat /etc/os-release
+  130  hostnamectl
+  131  lsb_release -a
+  132  uname -r
+  133  ls
+  134  cd var
+  135  cat /var/cache/pacman/pkg
+  136  cd /var/cache/pacman/pkg
+  137  ls
+  138  la
+  139  find -name linux
+  140  find -type -c
+  141  find -type c
+  142  ls -l linux
+  143  ls -l "linux"
+  144  ls -l
+  145  ls -d *linux*
+  146  hostnamectl
+  147  pacman -U /var/cache/pacman/pkg/linux-5.18.13.arch1-1-x86_64.pkg.tar.zst
+  148  sudo pacman -U /var/cache/pacman/pkg/linux-5.18.13.arch1-1-x86_64.pkg.tar.zst
+  149  sudo pacman -U /var/cache/pacman/pkg/linux-headers-5.18.13.arch1-1-x86_64.pkg.tar.zst
+  150  reboot
+  151  cat /var/log/pacman.log
+  152  ping archlinux.org
+  153  mkinitcpio -P
+  154  sudo mkinitcpio -P
+  155  reboot
+  156  cat /etc/mkinitcpio.conf
+  157  nvim /etc/mkinitcpio.conf
+  158  sudo nvim /etc/mkinitcpio.conf
+  159  mkinitcpio -P
+  160  sudo mkinitcpio -P
+  161  sudo journalctl -b -1 | curl -F 'file=@-'0x0.st
+  162  journalctl -f
+  163  journalctl -a
+  164  cls
+  165  clear
+  166  reboot
+  167  nvim /etc/mkinitcpio.conf
+  168  ls
+  169  sudo nvim /etc/mkinitcpio.conf
+  170  mkinitcpio -P
+  171  sudo  mkinitcpio -P
+  172  reboot
+  173  grep -e Log -e tty Xorg.0.log
+  174  grep -e Log -e tty /var/log/Xorg.0.log
+  175  lsblk -f
+  176  lsinitcpio /boot/initramfs-linux.img | grep amdgpu
+  177  sudo lsinitcpio /boot/initramfs-linux.img | grep amdgpu
+  178  lsblk -f
+  179  sudo nvim /etc/mkinitcpio.conf
+  180  mkinitcpio -P
+  181  sudo  mkinitcpio -P
+  182  sudo lsinitcpio /boot/initramfs-linux.img | grep ext4
+  183  mkinitcpio
+  184  mkinitcpio -P
+  185  sudo  mkinitcpio -P
+  186  reboot
+  187  cd /var/log
+  188  ls
+  189  grep -e Log -e tty Xorg.0.log
+  190  cd ~/.local/share/xorg
+  191  cd ~
+  192  ls
+  193  cd .local
+  194  cd share
+  195  ls
+  196  cd xorg
+  197  cd ~
+  198  cd /var/log
+  199  grep -e Log -e tty Xorg.1.log
+  200  grep -e Log -e tty pacman.log
+  201  grep Xorg.0.log
+  202  grep /fonts Xorg.0.log
+  203  grep -e Xorg.0.log
+  204  grep Log Xorg.0.log
+  205  grep Log -e Xorg.0.log
+  206  grep -e Log -e Xorg.0.log
+  207  grep -e Log -e tty Xorg.0.log
+  208  reboot
+  209  sudo nvim /etc/lightdm/lightdm.conf
+  210  nvim /etc/lightdm/lightdm.conf
+  211  reboot
+  212  cd /etc
+  213  ls
+  214  cd X11
+  215  cd ~
+  216  cd .config
+  217  cd xfce4
+  218  cd xfconf
+  219  cd xfce-perchannel-xml
+  220  rm displays.xml
+  221  reboot
+  222  rm ~/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+  223  nvim /etc/X11/xorg.conf.d
+  224  nvim /etc/X11/cd xinit
+  225  cd /etc/X11/xinit
+  226  ls
+  227  :q
+  228  cd..
+  229  cd ..
+  230  ls
+  231  cd xorg.conf.d
+  232  ls
+  233  cd ..
+  234  rm -r ~/.cache/sessions/
+  235  reboot
+  236  cd home
+  237  ls
+  238  cd .config
+  239  ls
+  240  cd xfce4
+  241  ls
+  242  cd desktop
+  243  ls
+  244  cd ~
+  245  sudo journalctl -b -1
+  246  dmesg | egrep -i -e 'amd|fb|drm|graphic'
+  247  sudo dmesg | egrep -i -e 'amd|fb|drm|graphic'
+  248  dmesg
+  249  sudo dmesg
+  250  lspci -vv
+  251  :q
+  252  sudo dmesg | egrep -i -e 'amd|fb|drm|graphic'
+  253  sudo dmesg | egrep -i -e 'amd|fb|drm|graphic' >> tmp.txt
+  254  nvim tmp.txt
+  255  initramfs -P
+  256  sudo mkinitcpio -P >> mk.txt
+  257  nvim mk.txt
+  258  grep -e Log -e tty Xorg.0.log >> grep.txt
+  259  cd /var/log/
+  260  grep -e Log -e tty Xorg.0.log >> grep.txt
+  261  cd ~
+  262  grep -e /var/Log -e tty Xorg.0.log
+  263  grep -e /var/log -e tty Xorg.0.log
+  264  grep -e /var/log/ -e tty Xorg.0.log
+  265  catch grep.txt
+  266  touch grep.txt
+  267  ls
+  268  sudo grep -e /var/log/ -e tty Xorg.0.log >> /grep.txt
+  269  "sudo grep -e /var/log/ -e tty Xorg.0.log" >> /grep.txt
+  270  sudo grep -e /var/log/ -e tty Xorg.0.log
+  271  cd /var/log
+  272  ls
+  273  grep -e Log -e tty Xorg.0.log
+  274  grep -e Log -e tty Xorg.0.log >> /grep.txt
+  275  grep -e Log -e tty Xorg.0.log >> p.txt
+  276  cd ~
+  277  dmesg >> dmesg.txt
+  278  sudo dmesg >> dmesg.txt
+  279  nvim dmesg.txt
+  280  sudo lsinitcpio /boot/initramfs-linux.img | grep amdgpu >> lsinit.txt
+  281  nvim lsinit.txt
+  282  lspci | grep VGA
+  283  sudo pacman -U /var/cache/pacman/pkg/linux-5.18.12.arch1-1-x86_64.pkg.tar.zst
+  284  sudo pacman -U /var/cache/pacman/pkg/linux-headers-5.18.12.arch1-1-x86_64.pkg.tar.zst
+  285  cat /var/log/pacman.log
+  286  cat /var/log/pacman.log >> pacmanlog.txt
+  287  nvim pacmanlog.txt
+  288  poweroff
+  289  cd /var/log
+  290  ls
+  291  nvim Xorg.0.log
+  292  ping archlinux.org
+  293  nmcli wifi connect list
+  294  nmtui
+  295  ping archlinux.org
+  296  sudo pacman -S xf86-video-fbdev
+  297  reboot
+  298  cd /var/log/
+  299  ls
+  300  nvim Xorg.0.log
+  301  ls -l
+  302  date 
+  303  cd ..
+  304  cd ~
+  305  /etc/
+  306  ls
+  307  Xorg
+  308  ls -l
+  309  cd X11
+  310  ls
+  311  cd xorg.conf.d
+  312  ls
+  313  nvim xorg.conf
+  314  sudo nvim xorg.conf
+  315  reboot
+  316  cd /var/log/
+  317  nvim Xorg.0.log
+  318  dmesg
+  319  sudo dmesg
+  320  sudo \dmesg
+  321  sudo dmesg | less
+  322  cd /var/log/
+  323  nvim Xorg.0.log
+  324  nmtui
+  325  sudo pacman -S xf86-video-ati
+  326  reboot
+  327  nvim /var/log/Xorg.0.log
+  328  nvim /var/log/Xorg.1.log
+  329  cd /var/log/
+  330  ls
+  331  ls -l
+  332  date
+  333  nvim /var/log/Xorg.0.log.old
+  334  sudo dmesg | less
+  335  iw reg get
+  336  sudo dmesg | grep ath
+  337  iw
+  338  nmcli 
+  339  nmcli -help
+  340  nmcli device wifi list
+  341  nmcli device wifi connect iPhone password thanh678
+  342  sudo pacman -S iw
+  343  iw reg get
+  344  nvim /var/log/Xorg.0.log
+  345  pacma -Q linux
+  346  pacman -Q linux
+  347  pacman -Q amdgpu
+  348  pacman -Q amd
+  349  sudo pacman -S amd
+  350  sudo pacman -S amdgpu
+  351  dmesg | grep -i amd
+  352  sudo dmesg | grep -i amd
+  353  nvim /var/log/Xorg.0.log
+  354  sudo pacman -S lm_sensors
+  355  pacman -Q lm_sensors
+  356  pacman -Qkk lm_sensors
+  357  reboot
+  358  nvim /var/log/Xorg.0.log
+  359  sudo pacman -S glibc
+  360  pacman -Q libc
+  361  pacman -Q libc.so
+  362  pacman -Q swrast_dri
+  363  pacman -S swrast_dri
+  364  sudo pacman -S swrast_dri
+  365  sudo pacman -S swrast
+  366  reboot
+  367  nvim /var/log/Xorg.0.log
+  368  nvim /var/log/Xorg.0.log.old
+  369  neofetch
+  370  sudo dmesg
+  371  sudo dmesg | less
+  372  sudo pacman -S alacritty
+  373  alacritty
+  374  zsh
+  375  zsh -v
+  376  zsh -v | less
+  377  nvim
+  378  zsh
+  379  nvim .zshrc
+  380  ls
+  381  rm *.txt
+  382  ls
+  383  nvim init.vim
+  384  cd oh-my-zsh
+  385  ls
+  386  nvim .zshrc
+  387  cd .vim
+  388  cd .oh-my-zsh
+  389  ls
+  390  cd themes
+  391  ls
+  392  cd ~
+  393  mkdir dotfiles
+  394  cd dotfiles
+  395  git clone git clone https://github.com/dracula/zsh.git
+  396  ls
+  397  git clone https://github.com/dracula/zsh.git\n
+  398  ls
+  399  cd zsh
+  400  ls
+  401  ln -s /dotfiles/zsh/dracula.zsh-theme /.oh-my-zsh/themes/dracula.zsh-theme\n
+  402  ln -s /dotfiles/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme\n
+  403  cd~
+  404  cd ~
+  405  nvim .zshrc
+  406  ln -s ~/dotfiles/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme\n
+  407  cd .oh-my-zsh
+  408  cd themes
+  409  ls
+  410  cd~
+  411  cd ~
+  412  nvim .zshrc
+  413  source ~/.zshrc
+  414  nvim .zshrc
+  415  reload
+  416  source ~/.zshrc
+  417  reload
+  418  nvim .zshrc
+  419  reload
+  420  zshconfig
+  421  ohmyzsh
+  422  zshconfig
+  423  reload
+  424  ohmyzsh
+  425  ls
+  426  cd themes
+  427  ls
+  428  zshconfig
+  429  reload
+  430  ls
+  431  rm dracula.zsh-theme
+  432  ls
+  433  grep rob
+  434  ln -s ~/dotfiles/zsh/dracula.zsh-them ~/.oh-my-zsh/themes/dracula.zsh-theme\n
+  435  ls
+  436  nvim dracula.zsh-theme
+  437  nvim robbyrussell.zsh-theme
+  438  rm dracula.zsh-theme
+  439  ls
+  440  cd ~/dotfiles
+  441  ls
+  442  cd zsh
+  443  ls
+  444  ln -s ~/dotfiles/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
+  445  ls
+  446  nvim dracula.zsh-theme
+  447  ohmyzsh
+  448  ls
+  449  cd themes
+  450  ls
+  451  nvim dracula.zsh-theme
+  452  reload
+  453  zshconfig
+  454  reload
+  455  clear
+  456  ls
+  457  zshconfig
+  458  ohmyzsh
+  459  ls
+  460  cd templates
+  461  ls
+  462  sudo pacman -S powerline-fonts
+  463  reload
+  464  cd ~
+  465  ls
+  466  cd .config
+  467  ls
+  468  cd alacritty
+  469  cd ~
+  470  cd usr
+  471  ls
+  472  cd /thanhdxn/
+  473  cd /thanhdxn
+  474  cd /share/
+  475  ls
+  476  cd /
+  477  ls
+  478  cd usr
+  479  cd share
+  480  cd doc/alacritty
+  481  cd example
+  482  ls
+  483  ln -s /usr/share/doc/alacritty/alacritty.yml ~/.alacritty.yml
+  484  nvim alacritty.yml
+  485  cd ~
+  486  ls
+  487  ls -l
+  488  la
+  489  nvim .alacritty.yml
+  490  rm .alacritty.yml
+  491  ln -s /usr/share/doc/example/alacritty/alacritty.yml ~/.alacritty.yml
+  492  la
+  493  nvim .alacritty.yml
+  494  rm .alacritty.yml
+  495  ls
+  496  la
+  497  ln -s /usr/share/doc/alacritty/example/alacritty.yml ~/.alacritty.yml
+  498  la
+  499  reload
+  500  nvim .alacritty.yml
+  501  nvim /usr/share/doc/alacritty/example/alacritty.yml
+  502  sudo nvim /usr/share/doc/alacritty/example/alacritty.yml
+  503  reload
+  504  nvim .alacritty.yml
+  505  sudo nvim .alacritty.yml
+  506  copy .alacritty.yml
+  507  cd .config
+  508  ls
+  509  mkdir alacritty
+  510  ls
+  511  cd ~
+  512  cp .alacritty.yml ~/.config/alacritty
+  513  la ~/.config/alacritty
+  514  reload
+  515  nvim ~/.config/alacritty
+  516  nvim ~/.config/alacritty/.alacritty.yml
+  517  sudo nvim .alacritty.yml
+  518  reload
+  519  sudo nvim .alacritty.yml
+  520  reload
+  521  zshconfig
+  522  nvim
+  523  nmclui
+  524  nmui
+  525  nmkui
+  526  clear
+  527  nmcli device wifi conncect Ministop
+  528  nmcli device wifi concect Ministop
+  529  nmcli device wifi connect Ministop
+  530  nmcli device wifi connect "Ministop Free WiFi"
+  531  poweroff
+  532  nmcli device wifi list
+  533  nmcli device wifi connect "Feel Coffee &Tea Express 1" password giaohangmienphi
+  534  cls
+  535  clear
+  536  reboot
+  537  ls
+  538  cd Do
+  539  cd Downloads
+  540  ls
+  541  git clone https://aur.archlinux.org/adobe-reader-11.git
+  542  ls
+  543  cd adobe-reader-11
+  544  ls
+  545  make pkg
+  546  makepkg -s -i -r -c
+  547  sudo makepkg -s -i -r -c
+  548  makepkg -s -i -r -c
+  549  sudo pacman -S wine
+  550  sudo pacman -Su wine
+  551  sudo pacman -S acroread
+  552  cd ..
+  553  git clone https://aur.archlinux.org/acroread.git
+  554  ls
+  555  cd acroread
+  556  ls
+  557  makepkg -s -i -r -c
+  558  sudo pacman -S lib32
+  559  sudo pacman -S lib32-gcc-libs
+  560  makepkg -s -i -r -c
+  561  sudo pacman -S lib32-cairo
+  562  sudo pacman -Syu lib32-libxi
+  563  sudo pacman -Syu
+  564  ls
+  565  makepkg -s -i -r -c
+  566  sudo pacman -S lib32-cairo
+  567  cd .
+  568  cd ..
+  569  git clone https://aur.archlinux.org/google-chrome.git
+  570  ls
+  571  cd google-chrome
+  572  makepkg
+  573  sudo pacman -S ttf-liberation
+  574  makepkg -s -i -r -c
+  575  ls
+  576  pacman -U google-chrome-105.0.5195.102-1-x86_64.pkg.tar.zst
+  577  sudo pacman -U google-chrome-105.0.5195.102-1-x86_64.pkg.tar.zst
+  578  ls
+  579  neofetch
+  580  cd ..
+  581  ls
+  582  rm acroread
+  583  rm acroread/
+  584  ls
+  585  rm -a acroread
+  586  rm --help
+  587  rm -r acroread
+  588  ls
+  589  rm -r adobe-reader-11
+  590  rm -r google-chrome
+  591  ls
+  592  rm 'BÁO CÁO THÍ NGHIỆM HOÁ ĐẠI CƯƠNG.docx'
+  593  rm 'hóa đc.docx'
+  594  ls
+  595  rm 'D
+  596  rm 'DANH SACH 213 - UYÊN.xlsx'
+  597  ls
+  598  rm regex.txt
+  599  touch townerOfHanoi.cpp
+  600  code townerOfHanoi.cpp
+  601  ls
+  602  cd /
+  603  ls
+  604  cd dev
+  605  ls
+  606  cd nvme0n1p1
+  607  ls
+  608  la
+  609  ls
+  610  cd disk
+  611  ls
+  612  cd ..
+  613  sudo cd nvme0n1p2
+  614  cd --help
+  615  cd -s
+  616  ls
+  617  cd /
+  618  ls
+  619  cd home
+  620  ls
+  621  cd thanhdxn
+  622  ls
+  623  cd ..
+  624  cd mnt
+  625  ls
+  626  la
+  627  cd ..
+  628  cd root
+  629  sudo cd root
+  630  ls
+  631  cd usr
+  632  ls
+  633  cd lib
+  634  ls
+  635  cd ..
+  636  ls
+  637  cd dev
+  638  ls
+  639  blkid
+  640  ls
+  641  ~
+  642  blkid 
+  643  sudo pacman -S blkid
+  644  fdisk -l
+  645  sudo fdisk -l
+  646  sudo pacman -S ntfs-3g
+  647  ls
+  648  lsblk
+  649  lsblkid
+  650  blkid
+  651  cd etc
+  652  ls
+  653  cd /etc
+  654  ls
+  655  vim fstab
+  656  sudo blkid
+  657  ls
+  658  cd /
+  659  ls
+  660  cd /mnt
+  661  ls
+  662  la
+  663  mkdir sharedWin
+  664  sudo mkdir sharedWin
+  665  lsblk
+  666  sudo blkid
+  667  vim /etc/fstab
+  668  sudo vim /etc/fstab
+  669  sudo mount /sda2 /mnt/sharedWin
+  670  sudo mount /dev/sda2 /mnt/sharedWin
+  671  lsblk
+  672  ls
+  673  cd sharedWin
+  674  sudo vim /etc/fstab
+  675  sudo blkid
+  676  groups
+  677  reboot
+  678  lsblk
+  679  cd /mnt
+  680  cd sharedWin
+  681  ls
+  682  nvim 'New Text Document.txt'
+  683  lsblk
+  684  sudo blkid
+  685  ls
+  686  cd Desktop
+  687  ls
+  688  la
+  689  cd /mnt/sharedWin
+  690  ls
+  691  la
+  692  open
+  693  google-chrome-stable 'Computer Networking A Top-Down Approach (James W. Kurose, Keith W. Ross) (z-lib.org).pdf'
+  694  ls
+  695  cp dsa-w3.h /mnt/sharedWin
+  696  cp dsa-w3.h /mnt/sharedWin/
+  697  sudo cp dsa-w3.h /mnt/sharedWin/
+  698  agd
+  699  adhf
+  700  asdfas
+  701  df
+  702  asd
+  703  fa
+  704  sdf
+  705  as
+  706  cp dsa-w3.h dsa-w3-Recursion.h
+  707  code dsa-w3-Recursion.h
+  708  reboot
+  709  code
+  710  cd /
+  711  ls
+  712  cd b
+  713  cd boot
+  714  ls
+  715  cd EFI
+  716  ls
+  717  cd Microsoft
+  718  ls
+  719  cd Boot
+  720  ls
+  721  vim bootmgfw.efi
+  722  grub-probe --target=fs_uuid esp/EFI/Microsoft/Boot/bootmgfw.efi
+  723  grub-probe --target=fs_uuid boot/EFI/Microsoft/Boot/bootmgfw.efi
+  724  Alternatively one can run lsblk --fs and read the UUID of the EFI system partition from there.
+  725  lsblk --fs
+  726  lsblkid
+  727  sudo blkid
+  728  lsblk
+  729  dir
+  730  showdir
+  731  pwd
+  732  la
+  733  grub-probe --target=fs_uuid bootmgfw.efi
+  734  lsblk
+  735  grub-probe --target=fs_uuid bootmgfw.efi
+  736  sudo grub-probe --target=fs_uuid bootmgfw.efi
+  737  sudo grub-probe --target=hints_string bootmgfw.efi
+  738  ^[[200~grub-probe --target=hints_string esp/EFI/Microsoft/Boot/bootmgfw.efi~
+  739  grub-probe --target=hints_string esp/EFI/Microsoft/Boot/bootmgfw.efi
+  740  grub-probe --target=hints_string boot/EFI/Microsoft/Boot/bootmgfw.efi
+  741  grub-probe --target=hints_string /boot/EFI/Microsoft/Boot/bootmgfw.efi
+  742  sudo grub-probe --target=hints_string /boot/EFI/Microsoft/Boot/bootmgfw.efi
+  743  sudo os-prober
+  744  sudo update-grub
+  745  sudo grub-update
+  746  grub -V
+  747  GRUB -V
+  748  ls
+  749  cd /
+  750  ls
+  751  cd b
+  752  cd boot
+  753  ls
+  754  cd grub
+  755  ls
+  756  vim grub.cfg
+  757  grub-mkconfig
+  758  sudo grub-mkconfig
+  759  vim grub.cfg
+  760  la grub.cfg
+  761  date
+  762  ls
+  763  cd x86_64-efi
+  764  ls
+  765  la
+  766  vim grub.efi
+  767  cd ..
+  768  ls
+  769  cd ..
+  770  ls
+  771  cd EFI
+  772  ls
+  773  cd arch
+  774  ls
+  775  cd ..
+  776  cd arch-g
+  777  cd arch_grub
+  778  ls
+  779  vim grubx64.efi
+  780  cd ..
+  781  ls
+  782  cd Boot
+  783  ls
+  784  cd ..
+  785  cd grub_uefi
+  786  ls
+  787  la
+  788  cd ..
+  789  cd HUAWEI
+  790  ls
+  791  la
+  792  cd ..
+  793  cd UpdateCapsule
+  794  ls
+  795  cd ..
+  796  la
+  797  cd /
+  798  ls
+  799  cd mnt
+  800  ls
+  801  la
+  802  cd ..
+  803  cd bin
+  804  ls
+  805  cd ..
+  806  grub-mkconfig -o /boot/grub/grub.cfg
+  807  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  808  vim /boot/grub/grub.cfg
+  809  la /boot/grub/grub.cfg
+  810  vim /boot/grub/grub.cfg
+  811  sudo vim /boot/grub/grub.cfg
+  812  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  813  cd boot
+  814  ls
+  815  sudo vim /boot/grub/grub.cfg
+  816  sudo vim /etc/default/grub
+  817  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  818  sudo vim /boot/grub/grub.cfg
+  819  reboot
+  820  ls
+  821  firefox
+  822  nmcli device wifi list
+  823  nmclui
+  824  nmtui
+  825  reboot
+  826  nmcli device wifi connect 'Yes Cafe' password mocua24h
+  827  sudo pacman -S okular
+  828  ps -el
+  829  top
+  830  pstree
+  831  date
+  832  poweroff
+  833  cp dsa-w4.h dsa-w4-Recursion.h
+  834  nmtui
+  835  nmcli device wifi list
+  836  nmcli device wifi connect HCMUT01 
+  837  nmcli device wifi connect HCMUT01
+  838  nmcli device wifi list
+  839  mkdir dsa-lab1
+  840  mkdir lab1-dsa
+  841  cd lab1-dsa
+  842  touch book.h
+  843  touch toy.h
+  844  cd ..
+  845  cp dsa-lab1-oop lab1-dsa/book.h
+  846  cp dsa-lab1-oop.cpp lab1-dsa/book.h
+  847  cd lab1-dsa
+  848  code .
+  849  cp dsa-lab1-oop.cpp lab1-dsa/book1.h
+  850  cd ..
+  851  cp dsa-lab1-oop.cpp lab1-dsa/book1.h
+  852  g++ -o main main.cpp -std=c++11 && ./main
+  853  touch run.sh
+  854  vim run.sh
+  855  run.sh
+  856  ./run.sh
+  857  sudo ./run.sh
+  858  ./run.sh
+  859  sh run.sh
+  860  nmtui
+  861  nmcli device wifi connect iPhone password thanh6789
+  862  nmcli device wifi connect iPhone password thanh678
+  863  cd /mnt/sharedWin/
+  864  ls
+  865  cd DSA
+  866  cd ASSIGNMENT-1
+  867  ls
+  868  la
+  869  cd ..
+  870  code .
+  871  cd /mnt/sharedWin/DSA/ASSIGNMENT-1
+  872  google-chrome-stable Data\ Structures\ A\ Pseudocode\ Approach\ with\ C\ \(Richard\ F.\ Gilberg,\ Behrouz\ A.\ Forouzan\)\ \(z-lib.org\).pdf
+  873  cd /mnt/sharedWin
+  874  cd DSA
+  875  cd ASSIGNMENT-1
+  876  ls
+  877  mkdir workspace
+  878  cd workspace
+  879  code .
+  880  unzip initial.zip
+  881  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  882  ^[[200~wmctrl-xa google-chrome-stable~
+  883  wmctrl-xa google-chrome-stable
+  884  wmctrl -xa google-chrome-stable
+  885  wmctrl -xa firefox
+  886  wmctrl -help
+  887  wmctrl
+  888  google-chrome-stable
+  889  googlechrome
+  890  wmctrl -xa google-chrome-stable
+  891  wmctrl -x google-chrome-stable
+  892  wmctrl -xa google-chrome-stable
+  893  wmctrl -a google-chrome-stable
+  894  wmctrl google-chrome-stable
+  895  wmctrl -s google-chrome-stable
+  896  wmctrl -xa "google-chrome-stable"
+  897  wmctrl -xa 'google-chrome-stable'
+  898  wmctrl -xa 'google-chrome'
+  899  exit
+  900  g++ -o main main.cpp -std=c++11
+  901  g++ -o test test.cpp -std=c++11
+  902  g++ -o test test.cpp -std=c++11 && /.test
+  903  g++ -o test test.cpp -std=c++11 && /.a
+  904  g++ -o test test.cpp -std=c++11 && ./test
+  905  echo "#DSA-221" >> README.md
+  906  ls
+  907  git init
+  908  git add README.md
+  909  git add ConcatStringList.cpp
+  910  git add ConcatStringList.h
+  911  git add main.cpp
+  912  git commit -m "add new file"
+  913  git config --global user.email 
+  914  git config --global user.name 
+  915  git commit -m "add new file"
+  916  git branch -M assignment-1
+  917  git remote add origin https://github.com/xuan/DSA-221.git
+  918  git push -u origin assignment-1
+  919  git add main.h
+  920  git commit -m "add main.h"
+  921  git push
+  922  nmtui
+  923  nmcli device wifi connect iPhone password 
+  924  cd /mnt/sharedWin
+  925  cd DSA/ASSIGNMENT-1
+  926  google-chrome-stable Data\ Structures\ A\ Pseudocode\ Approach\ with\ C\ \(Richard\ F.\ Gilberg,\ Behrouz\ A.\ Forouzan\)\ \(z-lib.org\).pdf
+  927  git status
+  928  git add ConcatStringList.cpp
+  929  git add ConcatStringList.h
+  930  git commit -m "add RefNode, DelStrNode, and some method"
+  931  git push
+  932  nmcli device wifi list
+  933  nmcli device wifi connect "Xuan Phuc" password ngoctamduchanhphuc199820042008
+  934  cd /mnt/sharedWin/DSA/ASSIGNMENT-1/
+  935  google-chrome-stable Data\ Structures\ A\ Pseudocode\ Approach\ with\ C\ \(Richard\ F.\ Gilberg,\ Behrouz\ A.\ Forouzan\)\ \(z-lib.org\).pdf
+  936  exit
+  937  nmcli device wifi connect "Xuan Phuc" password ngoctamduchanhphuc199820042008
+  938  nmcli device wifi list
+  939  nmcli device wifi connect "Xuan Phuc" password ngoctamduchanhphuc199820042008
+  940  nmtui
+  941  git status
+  942  google-chrome-stable
+  943  shutdown
+  944  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  945  ./main
+  946  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  947  ./main
+  948  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  949  ./main
+  950  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  951  ./main
+  952  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  953  ./main
+  954  g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11
+  955  ./main
+  956  echo "g++ -o main main.cpp ConcatStringList.cpp -I . -std=c++11 && ./main" >> run.sh
+  957  sh run.sh
+  958  google-chrome-stable
+  959  google-chrome
+  960  googlechrome
+  961  chrome
+  962  rp
+  963  p
+  964  process
+  965  exit
+  966  nmcli device wifi connect iPhone password thanh678
+  967  nmcli device wifi list
+  968  nmcli device wifi connect iPhone password thanh678
+  969  cd Documents
+  970  mkdir OSLab
+  971  cd OSLab
+  972  nvim hello.c
+  973  ls
+  974  mkdir OSLab-1
+  975  mv hello.c OSLab-1
+  976  cd OSLab-1
+  977  ls
+  978  gcc -c hello.c
+  979  ls
+  980  gcc -o hell_exc hello.o
+  981  ls
+  982  ./hell_exc
+  983  nvim main.c
+  984  nvim hello.h
+  985  nvim hello.c
+  986  nvim Makefile
+  987  make all
+  988  nvim main.c
+  989  make all
+  990  ls
+  991  nvim Makefile
+  992  make all
+  993  nvim Makefile
+  994  make all
+  995  nvim Makefile
+  996  make all
+  997  make
+  998  ls
+  999  .\hello
+ 1000  ./hello
+ 1001  rm hell_exc
+ 1002  make clean
+ 1003  ls
+ 1004  make all
+ 1005  ls
+ 1006  make clean
+ 1007  nvim Ma
+ 1008  nvim Makefile
+ 1009  make all
+ 1010  make clean
+ 1011  ls
+ 1012  make all
+ 1013  ./hello
+ 1014  mkdir Questions
+ 1015  cd Questions
+ 1016  cd ..
+ 1017  cd Questions
+ 1018  nvim basicProcess.c
+ 1019  nvim Makefile
+ 1020  make all
+ 1021  nvim basicProcess.c
+ 1022  make all
+ 1023  ./basicP
+ 1024  ls
+ 1025  nvim report.txt
+ 1026  ls
+ 1027  nvim report.txt
+ 1028  nvim basicProcess.c
+ 1029  exit
+ 1030  ~
+ 1031  init.vim
+ 1032  nvim init.vim
+ 1033  ls
+ 1034  cd /
+ 1035  ls
+ 1036  ~
+ 1037  ls
+ 1038  cd .config
+ 1039  ls
+ 1040  ls -a
+ 1041  cd nvim
+ 1042  cd ..
+ 1043  ls -a
+ 1044  cd .local
+ 1045  ls
+ 1046  cd share
+ 1047  ls
+ 1048  cd nvim
+ 1049  ls
+ 1050  la
+ 1051  cd shada
+ 1052  ls
+ 1053  cd..
+ 1054  cd ..
+ 1055  cd swap
+ 1056  ls
+ 1057  ~
+ 1058  cd nvim
+ 1059  cd .config
+ 1060  ld
+ 1061  ls
+ 1062  mkdir nvim
+ 1063  cd n
+ 1064  cd nvim
+ 1065  ls
+ 1066  touch init.vim
+ 1067  nvim init.vim
+ 1068  ~
+ 1069  cd dotfiles
+ 1070  ls
+ 1071  la
+ 1072  cd zsh
+ 1073  ls
+ 1074  cd ..
+ 1075  cd .config/nvim
+ 1076  ls
+ 1077  nvim init.vim
+ 1078  cd ~/Documents/OSLab
+ 1079  ls
+ 1080  cd OSLab-1
+ 1081  ls
+ 1082  nvim hello.c
+ 1083  nvim ~/.config/nvim/init.vim
+ 1084  nvim hello
+ 1085  nvim hell.c
+ 1086  nvim ~/.config/nvim/init.vim
+ 1087  nvim hell.c
+ 1088  nvim hello.c
+ 1089  nvim ~/.config/nvim/init.vim
+ 1090  nvim hello.c
+ 1091  nvim hello.cc
+ 1092  nvim hello.c
+ 1093  cd Questions
+ 1094  ls
+ 1095  nvim basicProcess.c
+ 1096  ls
+ 1097  cd ..
+ 1098  ls
+ 1099  cd ..
+ 1100  pwd
+ 1101  cp /home/thanhdxn/Documents/OSLab/OSLab-1/Makefile Makefile
+ 1102  ls
+ 1103  nvim Makefile
+ 1104  make all
+ 1105  nvim Makefile
+ 1106  make all
+ 1107  nvim Makefile
+ 1108  pwd
+ 1109  nvim Makefile
+ 1110  make all
+ 1111  nvim Makefile
+ 1112  pwd
+ 1113  nvim Makefile
+ 1114  make all
+ 1115  cd OSLab-1
+ 1116  ls
+ 1117  cd ..
+ 1118  nvim Makefile
+ 1119  make all
+ 1120  nvim Makefile
+ 1121  make all
+ 1122  nvim Makefile
+ 1123  make all
+ 1124  nvim Makefile
+ 1125  make all
+ 1126  nvim
+ 1127  nvim Makefile
+ 1128  make all
+ 1129  ls
+ 1130  nvim Makefile
+ 1131  make all
+ 1132  nvim Makefile
+ 1133  cd OSLab-1
+ 1134  ls
+ 1135  make clean
+ 1136  ls
+ 1137  nvim Makefile
+ 1138  make all
+ 1139  ls
+ 1140  ./hello
+ 1141  cd ..
+ 1142  make all
+ 1143  cd OSLab-1
+ 1144  ls
+ 1145  make clean
+ 1146  ls
+ 1147  cd ..
+ 1148  make all
+ 1149  cd OSLab-1
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  nvim Makefile
+ 1154  make all
+ 1155  nvim Makefile
+ 1156  make all
+ 1157  nvim Makefile
+ 1158  cd OSLab-1
+ 1159  ls
+ 1160  cd ..
+ 1161  ls
+ 1162  nvim Makefile
+ 1163  make all
+ 1164  pwd
+ 1165  nvim Makefile
+ 1166  make all
+ 1167  ls
+ 1168  nvim Makefile
+ 1169  make all
+ 1170  nvim Makefile
+ 1171  let ma1172  nvim Makefile
+ 1173  ^[[200~let mapleader = " "
+ 1174  set backspace=2   " Backspace deletes like most programs in insert mode\nset nobackup\nset nowritebackup\nset noswapfile\nset history=50\nset ruler         " show the cursor position all the time
+ 1175  set showcmd       " display incomplete commands\nset incsearch     " do incremental searching
+ 1176  set laststatus=2  " Always display the status line\nset autowrite     " Automatically :write before running commands
+ 1177  set autoindent
+ 1178  set smartindent
+ 1179  set autoread
+ 1180  set autowrite
+ 1181  " Softtabs, 2 spaces\nset tabstop=2\nset shiftwidth=2\nset shiftround\nset expandtab\n\n" Make it obvious where 80 characters is
+ 1182  set textwidth=80
+ 1183  set colorcolumn=+1
+ 1184  " Display extra whitespace\n" set list listchars=tab:»·,trail:·,nbsp:·
+ 1185  " Use one space, not two, after punctuation.\nset nojoinspaces\n\n" Numbers
+ 1186  set relativenumber
+ 1187  set number
+ 1188  set numberwidth=5
+ 1189  " Open new split panes to right and bottom, which feels more natural\nset splitbelow\nset splitright\n\n" Autocomplete with dictionary words when spell check is on
+ 1190  set complete+=kspell
+ 1191  " Always use vertical diffs\nset diffopt+=vertical\n\n" Copy to clipboard
+ 1192  set clipboard=unnamed
+ 1193  set lazyredraw
+ 1194  set termguicolors
+ 1195  set updatetime=300
+ 1196  set background=dark~
+ 1197  ls
+ 1198  " Always use vertica:\nset diffopt+=vertical\n\n" Copy to clipboard
+ 1199  cd /home/thanhdxn/Documents/OSLab/OSLab-1
+ 1200  ~
+ 1201  cd /home/thanhdxn/Documents/OSLab/OSLab-1
+ 1202  cd ..
+ 1203  nvim Makefile
+ 1204  make all
+ 1205  nvim Makefile
+ 1206  make all
+ 1207  nvim Makefile
+ 1208  make all
+ 1209  $PATH
+ 1210  man $PATH
+ 1211  cat $PATH
+ 1212  cd ..
+ 1213  cd /home/thanhdxn/Documents/OSLab/OSLab-1
+ 1214  cd ..
+ 1215  nvim Makefile
+ 1216  make all
+ 1217  cd OSLab-1
+ 1218  ls
+ 1219  pwd
+ 1220  cd  ..
+ 1221  vi Makefile
+ 1222  vim Makefile
+ 1223  make all
+ 1224  vim Makefile
+ 1225  pwd
+ 1226  vim Makefile
+ 1227  cat Makefile
+ 1228  vim Makefile
+ 1229  make all
+ 1230  ls -la
+ 1231  cp -R OSLab-1 lab1
+ 1232  vim Makefile
+ 1233  make all
+ 1234  cat Makefile
+ 1235  nvim Makefile
+ 1236  make all
+ 1237  nvim Makefile
+ 1238  make all
+ 1239  nvim Makefile
+ 1240  make all
+ 1241  nvim Makefile
+ 1242  make all
+ 1243  nvim Makefile
+ 1244  make default
+ 1245  nvim Makefile
+ 1246  make all
+ 1247  ls
+ 1248  gcc -o main main.o
+ 1249  gcc -o main.o main
+ 1250  gcc -o main main.o
+ 1251  cd lab1
+ 1252  ls
+ 1253  make
+ 1254  ls
+ 1255  make clean
+ 1256  ls
+ 1257  make all
+ 1258  cd ..
+ 1259  ls
+ 1260  nvim Makefile
+ 1261  make all
+ 1262  ls
+ 1263  cd lab1
+ 1264  ls
+ 1265  make clean
+ 1266  cd ..
+ 1267  make all
+ 1268  ls
+ 1269  nvim Makefile
+ 1270  cd lab1
+ 1271  ls
+ 1272  make clean
+ 1273  ls
+ 1274  cd ..
+ 1275  make all
+ 1276  cd lab1
+ 1277  ls
+ 1278  ./hello
+ 1279  nvim Makefile
+ 1280  make clean
+ 1281  cd ..
+ 1282  make all
+ 1283  nvim Makefile
+ 1284  make all
+ 1285  nvim Make
+ 1286  ls
+ 1287  rm Make
+ 1288  nvim Makefile
+ 1289  cp Makefile ~
+ 1290  ~
+ 1291  make all
+ 1292  cd Documents/OSLab/OSLab-1
+ 1293  ls
+ 1294  make clean
+ 1295  ls
+ 1296  cd ..
+ 1297  nvim Makefile
+ 1298  cd OSLab-1
+ 1299  mkdir Basic
+ 1300  cd Basic
+ 1301  mkdir 2014486
+ 1302  cd 2014486
+ 1303  touch example.txt
+ 1304  vim example.txt
+ 1305  ls
+ 1306  cat example.txt
+ 1307  nvim example.txt
+ 1308  man cat
+ 1309  cat --5 example.txt
+ 1310  cat -n --5 example.txt
+ 1311  cat -5 example.txt
+ 1312  cat --help
+ 1313  cat -b example.txt
+ 1314  cat -n example.txt
+ 1315  cat -n 5 example.txt
+ 1316  cat -b 5 example.txt
+ 1317  man cat
+ 1318  cat -n
+ 1319  ls
+ 1320  cat --5 example.txt
+ 1321  cat -n 5p example.txt
+ 1322  sh run.sh
+ 1323  nvim Makefile
+ 1324  make all
+ 1325  sh run.sh
+ 1326  cd /home/thanhdxn/Documents/OSLab
+ 1327  cd OSLab-1
+ 1328  cd Basic
+ 1329  cd 2014486
+ 1330  ls
+ 1331  head -n 5 example.txt
+ 1332  cat example.txt
+ 1333  cat -n example.txt
+ 1334  nvim report.txt
+ 1335  tail -n 5 example.txt
+ 1336  nvim report.txt
+ 1337  cd ..
+ 1338  mkdir Programming
+ 1339  cd Programming && nvim factorial.h
+ 1340  nvim readline.h
+ 1341  cat -n factorial.h
+ 1342  nvim factorial.c
+ 1343  nvim readline.h
+ 1344  nvim readline.c
+ 1345  man getline
+ 1346  man getline()\nha
+ 1347  history > history.txt
+ 1348  cat history.txt
+ 1349  man history
+ 1350  man cd
+ 1351  ~
+ 1352  man cd
+ 1353  man pid
+ 1354  man pd
+ 1355  man mkdir
+ 1356  man history
+ 1357  cd /home/thanhdxn/Documents/OSLab/OSLab-1/Basic/2014486
+ 1358  ls
+ 1359  rm report.txt
