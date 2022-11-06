@@ -73,11 +73,11 @@ void * mem_alloc(unsigned int size) {
 	// Follow is FIST FIT allocator used for demonstration only.
 	// You need to implment your own BEST FIT allocator.
 	// TODO: Comment the next line
-	void * pointer = first_fit_allocator(size);
+	// void * pointer = first_fit_allocator(size);
 	// Commnent out the previous line and uncomment to next line
 	// to invoke best fit allocator
 	// TODO: uncomment the next line
-	//void * pointer = best_fit_allocator(size);
+	void * pointer = best_fit_allocator(size);
 	
 	// FOR VERIFICATION ONLY. DO NOT REMOVE THESE LINES
 	if (pointer != NULL) {
@@ -185,7 +185,64 @@ void mem_free(void * pointer) {
 
 void * best_fit_allocator(unsigned int size) {
 	// TODO: Implement your best fit allocator here
-	return NULL; // remember to remove this line 
+	struct mem_region * current_region = free_regions;
+	int minSizeFit = __INT_MAX__;
+	struct mem_region * minSize_region = NULL;
+	int found = 0;
+	while (current_region != NULL) {
+		if (current_region->size == size) {
+			minSize_region = current_region;
+			minSizeFit = current_region->size;
+			found = 1;
+			break;
+		}
+		else if (current_region->size > size && current_region->size < minSizeFit) {
+			minSizeFit = current_region->size;
+			minSize_region = current_region;
+			found = 1;
+		}
+		current_region =  current_region->next;
+	}
+	
+	if (found) {
+		struct mem_region* tmp =
+			(struct mem_region*)malloc(sizeof(struct mem_region));
+		tmp->pointer = minSize_region->pointer;
+		tmp->size = size;
+		tmp->next = used_regions;
+		tmp->prev = NULL;
+		if (used_regions == NULL) {
+			used_regions = tmp;
+		}else{
+			used_regions->prev = tmp;
+			used_regions = tmp;
+		}
+		if (minSize_region->size == size) {
+			//delete full region
+			if (minSize_region == free_regions) {
+				free_regions = free_regions->next;
+				if (free_regions != NULL) {
+					free_regions->prev = NULL;
+				}
+			}else{
+				if (minSize_region->prev != NULL) {
+					minSize_region->prev->next = minSize_region->next;
+				}
+				if (minSize_region->next != NULL) {
+					minSize_region->next->prev = minSize_region->prev;
+				}
+			}
+			free(minSize_region);
+		}else{
+			// tru di khoang dax su dung
+			minSize_region->pointer += size;
+			minSize_region->size -= size;
+		}
+		return tmp->pointer;
+	}
+	else {
+		return NULL;
+	}
 }
 
 void * worst_fit_allocator(unsigned int size) {
@@ -219,6 +276,7 @@ void * first_fit_allocator(unsigned int size) {
 			used_regions = tmp;
 		}
 		if (current_region->size == size) {
+			//delete full region
 			if (current_region == free_regions) {
 				free_regions = free_regions->next;
 				if (free_regions != NULL) {
@@ -234,6 +292,7 @@ void * first_fit_allocator(unsigned int size) {
 			}
 			free(current_region);
 		}else{
+			// tru di khoang dax su dung
 			current_region->pointer += size;
 			current_region->size -= size;
 		}
