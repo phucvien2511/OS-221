@@ -37,8 +37,15 @@ void * cpu(void * arg) {
 			 * It should not exeed 'timeslot'.
 			*/
 			int exec_time = 0;
-
 			// TODO: Calculate exec_time from process's PCB
+			if (proc->burst_time <= timeslot) {
+				exec_time = proc->burst_time;
+				proc->burst_time = 0;
+			}
+			else {
+				exec_time = timeslot;
+				proc->burst_time -= timeslot;
+			}
 			
 			// YOUR CODE HERE
 			
@@ -52,7 +59,11 @@ void * cpu(void * arg) {
 			// TODO: Check if the process has terminated (i.e. its
 			// burst time is zero. If so, free its PCB. Otherwise,
 			// put its PCB back to the queue.
-			
+			if (proc->burst_time == 0) {
+				free(proc);
+			} else {
+				en_queue(&ready_queue, proc);
+			}
 			// YOUR CODE HERE
 			
 			/* Track runtime status */
