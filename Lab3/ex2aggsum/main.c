@@ -123,8 +123,8 @@ int main(int argc, char* argv[]) {
    fflush(stdout);
 
    printf("%s gives sum result %ld\n", PACKAGE, sumbuf);
-
-   waitpid(pid, NULL, 0);
+   pthread_mutex_destroy(&mtx);
+   waitpid(pid);
    exit(0);
 }
 
